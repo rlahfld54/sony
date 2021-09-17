@@ -1,0 +1,80 @@
+
+@font-face {
+    font-family: "SST W01 Italic";
+    src: url('SSTW02Italic.woff2') format('woff2'),
+         url('SSTW02Italic.woff') format('woff'),
+         url('SSTW02Italic.ttf') format('truetype'),
+         url('SSTW02Italic.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "SST W01 Light";
+    src: url('SSTW02Light.woff2') format('woff2'),
+         url('SSTW02Light.woff') format('woff'),
+         url('SSTW02Light.ttf') format('truetype'),
+         url('SSTW02Light.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "SST W01 Light Italic";
+    src: url('SSTW02LightItalic.woff2') format('woff2'),
+         url('SSTW02LightItalic.woff') format('woff'),
+         url('SSTW02LightItalic.ttf') format('truetype'),
+         url('SSTW02LightItalic.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+
+  
+  
+  @font-face {
+    font-family: "SST W01 Light";
+    src: url('SSTW02Light.woff2') format('woff2');
+  }
+
+
+
+  @font-face {
+    font-family: "SST W01 Roman";
+    src: url('SSTW02Roman.woff2') format('woff2');
+  }
+
+
+  @font-face {
+    font-family: "SST W01 Medium";
+    src: url('SSTW02Medium.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: "SST W01 Medium Italic";
+    src: url('SSTW02MediumItalic.woff2') format('woff2'),
+         url('SSTW02MediumItalic.woff') format('woff'),
+         url('SSTW02MediumItalic.ttf') format('truetype'),
+         url('SSTW02MediumItalic.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "SST W01 Bold";
+    src: url('SSTW02Bold.woff2') format('woff2'),
+         url('SSTW02Bold.woff') format('woff'),
+         url('SSTW02Bold.ttf') format('truetype'),
+         url('SSTW02Bold.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "SST W01 Bold Italic";
+    src: url('SSTW02BoldItalic.woff2') format('woff2'),
+         url('SSTW02BoldItalic.woff') format('woff'),
+         url('SSTW02BoldItalic.ttf') format('truetype'),
+         url('SSTW02BoldItalic.eot?#iefix') format('embedded-opentype');
+      font-weight: normal;
+    font-style: normal;
+  }
+  

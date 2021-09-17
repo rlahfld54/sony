@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="images/mobile_web_icon.png">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <title>소니코리아| 최신 기술 및 소식 | 가전 | 엔터테인먼트 | Sony KR</title>
+  <!-- jquery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- html5shiv -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+  <script src="js/respond.min.js"></script>
+  <!-- vender-prefix -->
+  <script type="text/javascript" src="js/prefixfree.min.js"></script>
+  <!-- swiper -->
+  <link rel="stylesheet" href="js/swiper/swiper.min.css">
+  <script src="js/swiper/swiper.min.js"></script>
+  <!-- normalize.css -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fontello/css/fontello.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+  <div class="fix">
+
+    <div class="container">
+      <a href="#" class="gotop"><i class="icon-up-open"></i></a>
+    </div>
+
+  </div>
+
+  <div class="wrap">
+    <!-- 상단 -->
+    <header class="header">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 526 114" xml:space="preserve" tabindex="-1"
+            xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" class="brand-logo-svg" version="1.1">
+            <g transform="translate(13.000000, 12.000000)" tabindex="-1" focusable="false" fill="#FFFFFF">
+              <path
+                d="M179.106,88.578 C160.994,88.578 144.183,83.144 132.96,73.074 C124.479,65.464 120.405,55.124 120.405,44.486 C120.405,33.973 124.655,23.565 132.96,15.996 C143.377,6.498 161.782,0.549 179.106,0.549 C198.278,0.549 213.624,5.378 225.355,16.021 C233.702,23.597 237.739,33.959 237.739,44.486 C237.739,54.691 233.454,65.558 225.355,73.074 C214.433,83.21 197.268,88.578 179.106,88.578 L179.106,76.966 C188.722,76.966 197.638,73.646 203.864,67.453 C210.051,61.298 212.933,53.73 212.933,44.486 C212.933,35.625 209.823,27.346 203.864,21.473 C197.719,15.418 188.591,12.013 179.106,12.013 C169.595,12.013 160.456,15.385 154.309,21.473 C148.383,27.342 145.267,35.65 145.267,44.486 C145.267,53.292 148.415,61.589 154.309,67.453 C160.46,73.574 169.566,76.966 179.106,76.966 L179.106,88.578">
+              </path>
+              <path
+                d="M46.724,0.591 C37.036,0.591 26.026,2.404 16.677,6.58 C8.046,10.433 0.979,16.66 0.979,26.986 C0.974,36.285 6.885,41.73 6.724,41.582 C9.239,43.896 13.286,47.837 23.866,50.154 C28.596,51.187 38.706,52.773 48.776,53.829 C58.767,54.882 68.605,55.882 72.608,56.898 C75.791,57.708 81.142,58.812 81.142,64.808 C81.142,70.783 75.509,72.607 74.529,72.999 C73.55,73.39 66.792,76.488 54.647,76.488 C45.679,76.488 34.899,73.79 30.968,72.386 C26.44,70.773 21.687,68.64 17.255,63.228 C16.152,61.882 14.414,58.193 14.414,54.537 L3.419,54.537 L3.419,85.341 L15.64,85.341 C15.64,85.341 15.64,81.962 15.64,81.177 C15.64,80.704 16.23,78.753 18.282,79.683 C20.835,80.843 28.326,83.826 36.159,85.462 C42.582,86.802 46.724,87.765 54.708,87.765 C67.735,87.765 74.735,85.646 79.573,84.263 C84.132,82.96 89.762,80.615 94.34,76.966 C96.815,74.994 102.249,69.935 102.249,60.755 C102.249,51.947 97.522,46.478 95.858,44.814 C93.593,42.548 90.823,40.787 87.938,39.433 C85.427,38.252 81.46,36.832 78.216,36.037 C71.917,34.49 57.677,32.584 50.864,31.872 C43.725,31.125 31.335,30.098 26.388,28.566 C24.887,28.101 21.833,26.644 21.833,23.097 C21.833,20.571 23.229,18.43 25.993,16.699 C30.38,13.952 39.241,12.24 48.481,12.24 C59.401,12.202 68.651,14.7 74.535,17.328 C76.538,18.221 78.876,19.507 80.737,21.025 C82.833,22.736 85.784,26.289 86.846,31.248 L96.716,31.248 L96.716,4.435 L85.696,4.435 L85.696,7.549 C85.696,8.558 84.658,9.865 82.695,8.782 C77.762,6.198 63.816,0.615 46.724,0.591">
+              </path>
+              <path
+                d="M288.223,5.464 L341.98,53.976 L341.43,21.314 C341.373,17.03 340.584,15.242 335.953,15.242 C329.762,15.242 325.844,15.242 325.844,15.242 L325.844,5.472 L371.811,5.472 L371.811,15.242 C371.811,15.242 368.141,15.242 361.947,15.242 C357.225,15.242 356.928,16.755 356.867,21.314 L357.701,83.728 L341.959,83.728 L280.047,28.467 L280.057,67.683 C280.113,71.949 280.311,73.954 284.703,73.954 C290.889,73.954 295.744,73.954 295.744,73.954 L295.744,83.724 L250.602,83.724 L250.602,73.954 C250.602,73.954 254.967,73.954 261.154,73.954 C265.096,73.954 264.939,70.197 264.939,67.462 L264.939,21.684 C264.939,18.73 264.523,15.248 258.336,15.248 L249.775,15.248 L249.775,5.464 L288.223,5.464"
+                class=""></path>
+              <path
+                d="M424.332,73.937 C424.762,73.937 426.68,73.88 427.051,73.767 C428.113,73.437 428.834,72.679 429.168,71.89 C429.309,71.56 429.379,70.091 429.379,69.777 C429.379,69.777 429.385,54.849 429.385,54.333 C429.385,53.962 429.357,53.8 428.729,52.976 C428.035,52.07 400.572,20.947 399.314,19.578 C397.754,17.874 395.014,15.244 390.846,15.244 C387.533,15.244 381.297,15.244 381.297,15.244 L381.297,5.468 L435.197,5.468 L435.197,15.23 C435.197,15.23 429.953,15.23 428.699,15.23 C427.199,15.23 426.201,16.656 427.482,18.24 C427.482,18.24 445.619,39.934 445.791,40.164 C445.961,40.392 446.105,40.449 446.334,40.235 C446.561,40.02 464.924,18.441 465.068,18.269 C465.941,17.224 465.354,15.244 463.469,15.244 C462.211,15.244 456.799,15.244 456.799,15.244 L456.799,5.468 L500.979,5.468 L500.979,15.244 C500.979,15.244 494.422,15.244 491.109,15.244 C487.527,15.244 486.07,15.904 483.377,18.951 C482.145,20.344 454.389,52.027 453.633,52.886 C453.236,53.335 453.273,53.962 453.273,54.333 C453.273,54.929 453.273,68.341 453.273,69.771 C453.273,70.083 453.344,71.552 453.484,71.882 C453.816,72.675 454.539,73.431 455.602,73.759 C455.973,73.874 457.865,73.931 458.295,73.931 C460.234,73.931 468.391,73.931 468.391,73.931 L468.391,83.704 L414.766,83.704 L414.766,73.931 L424.332,73.937"
+                class=""></path>
+            </g>
+          </svg>
+        </a>
+
+        <nav class="gnb">
+          <ul class="menu-list">
+            <li><a href="#">스토어</a></li>
+            <li><a href="#">전자제품 <i class="icon-down-micro"></i></a></li>
+            <li><a href="#">PlayStation<sup>&reg;</sup></a></li>
+            <li><a href="#">제품지원</a></li>
+          </ul>
+        </nav>
+
+        <div class="user-menu">
+          <a href="#" class="favo"><i class="icon-heart"></i></a>
+          <a href="#" class="search">소니 검색 <i class="icon-search"></i></a>
+          <a href="#" class="site">소니 사이트 <i class="icon-up-micro"></i></a>
+        </div>
+
+        <div class="search-wrap">
+          <i class="icon-up-dir"></i>
+          <form action="" method="GET" id="search-form">
+            <label for="search-txt">소니검색</label>
+            <input type="text" name="" id="search-txt" placeholder="검색">
+            <input type="button" class="form-cancel" value="❌">
+          </form>
+        </div>
+
+      </div>
+      <!-- 서브메뉴 -->
+      <div class="depth2">
+        <!-- 서브메뉴 상단 -->
+        <div class="depth2-top">
+          <div class="container">
+            <div class="depth2-box">
+              <a href="#" class="depth2-cate">오디오<i class="icon-right-open-mini"></i></a>
+              <ul class="depth2-list">
+                <li><i class="icon-angle-double-right"></i><a href="#">헤드폰</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">MP3플레이어</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">하이레졸루션 오디오</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">무선 스피커</a></li>
+              </ul>
+              <a href="#" class="depth2-more">모두보기</a>
+            </div>
+            <div class="depth2-box">
+              <a href="#" class="depth2-cate">카메라<i class="icon-right-open-mini"></i></a>
+              <ul class="depth2-list">
+                <li><i class="icon-angle-double-right"></i><a href="#">렌즈 교환식 카메라</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">렌즈</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">컴팩트 카메라</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">시네마 라인 카메라</a></li>
+              </ul>
+              <a href="#" class="depth2-more">모두보기</a>
+            </div>
+            <div class="depth2-box">
+              <a href="#" class="depth2-cate">비디오 카메라<i class="icon-right-open-mini"></i></a>
+              <ul class="depth2-list">
+                <li><i class="icon-angle-double-right"></i><a href="#">캠코더</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">액션 카메라</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">전문가용 비디오카메라</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">시네마 라인 카메라</a></li>
+              </ul>
+              <a href="#" class="depth2-more">모두보기</a>
+            </div>
+            <div class="depth2-box">
+              <a href="#" class="depth2-cate">카 오디오<i class="icon-right-open-mini"></i></a>
+              <ul class="depth2-list">
+                <li><i class="icon-angle-double-right"></i><a href="#">수신기 및 플레이어</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">앰프</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">스피커 및 서브우퍼</a></li>
+              </ul>
+              <a href="#" class="depth2-more">모두보기</a>
+            </div>
+            <div class="depth2-box">
+              <a href="#" class="depth2-cate">스토리지 및 케이블<i class="icon-right-open-mini"></i></a>
+              <ul class="depth2-list">
+                <li><i class="icon-angle-double-right"></i><a href="#">메모리 카드 및 SSD</a></li>
+                <li><i class="icon-angle-double-right"></i><a href="#">케이블</a></li>
+              </ul>
+              <a href="#" class="depth2-more">모두보기</a>
+            </div>
+          </div>
+
+          <div class="container depth2-link">
+            <a href="#"><i class="icon-th"></i>전체 전자제품</a>
+            <a href="#">전문가용 제품 및 솔루션 보기</a>
+          </div>
+
+        </div>
+        <!--//서브메뉴 상단  -->
+        <!-- 서브메뉴 하단 -->
+        <div class="depth2-bottom">
+          <div class="container clearfix">
+            <a href="#" class="depth2-good">
+              <img src="images/banner_1.webp" alt="">
+              <p>
+                소니코리아
+                <span>About Sony, 소니코리아 연혁, 사회공헌, 환경 경영 이야기 </span>
+              </p>
+            </a>
+            <a href="#" class="depth2-good">
+              <img src="images/banner_2.webp" alt="">
+              <p>
+                WF-1000XM3
+                <span>노이즈 캔슬링으로 몰입하다 </span>
+              </p>
+            </a>
+          </div>
+        </div>
+        <!--// 서브메뉴 하단 -->
+      </div>
+      <!--//서브메뉴  -->
+
+    </header>
+    <!-- 비주얼 -->
+    <section class="visual">
+      <div class="container">
+
+        <div class="visual-cont">
+          <p class="visual-cont-txt">WF-1000XM4</p>
+          <h2 class="visual-cont-title">헤드폰에 도전하다</h2>
+          <a href="#" class="visual-cont-bt">WF-1000XM4 알아보기</a>
+        </div>
+
+      </div>
+    </section>
+    <!-- 최신상품 -->
+    <section class="latest">
+      <div class="container">
+        <h2 class="latest-title">THE LATEST</h2>
+        <div class="latest-slide">
+          <!-- latest 슬라이드 -->
+          <div class="swiper-container sw-latest">
+            <!-- 슬라이드 내용 -->
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sw-latest-first">
+                <a href="#">
+                  <img src="images/slide_01.webp" alt="">
+                  <p class="latest-t1">
+                    작은 행복의 발견 <br>
+                    ZV-E10
+                    <span>데일리 브이로그 카메라</span>
+                  </p>
+                </a>
+              </div>
+
+              <div class="swiper-slide sw-latest-blank"></div>
+
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_02.webp" alt="">
+                  <p class="latest-t2">
+                    <span>WH-1000XM4</span>
+                    #벗지않는헤드폰
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_03.webp" alt="">
+                  <p class="latest-t3">
+                    <span>α1</span>
+                    독보적인 존재감<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_04.webp" alt="">
+                  <p class="latest-t2">
+                    <span>SRS-XB13</span>
+                    어디든 함께하는 스피커<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_05.webp" alt="">
+                  <p class="latest-t2">
+                    <span>zv-1</span>
+                    그냥을<br>
+                    그냥이 아니게
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_06.webp" alt="">
+                  <p class="latest-t3">
+                    <span>SRS-XP500</span>
+                    음악에 흠뻑 취하기<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_07.webp" alt="">
+                  <p class="latest-t3">
+                    <span>α7S III</span>
+                    영상에 초격차<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_08.webp" alt="">
+                  <p class="latest-t4">
+                    <span>α7S III</span>
+                    모두를 위한 완벽한 선택 <br>
+                    당신에게 필요한 모든 것<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img src="images/slide_09.webp" alt="">
+                  <p class="latest-t5">
+                    <span>FX3</span>
+                    시네마틱 표현의 진수를<br>
+                    보여주는<i class="icon-right-open-mini"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+            <!--// 슬라이드 내용 -->
+            <!-- Pagination -->
+            <div class="swiper-pagination sw-latest-pg"></div>
+            <!--// Pagination  -->
+            <!-- Navigation -->
+            <div class="sw-latest-next">
+              <i class="icon-right-open"></i>
+            </div>
+            <div class="sw-latest-prev">
+              <i class="icon-left-open"></i>
+            </div>
+            <!--// Navigation -->
+          </div>
+          <!--// latest 슬라이드 -->
+        </div>
+      </div>
+    </section>
+    <!-- 인기상품 -->
+    <section class="hot">
+      <div class="container">
+        <h2 class="hot-title">WHAT'S HOT</h2>
+        <div class="hot-wrap hot-box-h-2x">
+          <div class="hot-box hot-box-1 hot-box-w-2x hot-box-h">
+            <h3>소니의 최신제품</h3>
+            <a href="#">소니스토어 바로가기</a>
+          </div>
+          <div class="hot-box hot-box-2 hot-box-w hot-box-h">
+            <a href="#">
+              <div class="hot-box-img">
+                <img src="images/hot_good_2.webp" alt="제품">
+                <i class="icon-heart"></i>
+              </div>
+              <p class="hot-box-desc">
+                <strong>Alpha 7C</strong> 컴팩트 풀프레임 카메라
+                <span>ILCE-7C / ILCE-7CL</span>
+              </p>
+              <span class="hot-box-price">
+                시작 <em>2,199,000 원</em> <sup>1</sup>
+              </span>
+            </a>
+          </div>
+          <div class="hot-box hot-box-3 hot-box-w hot-box-h">
+            <a href="#">
+              <div class="hot-box-img">
+                <img src="images/hot_good_3.webp" alt="제품">
+                <i class="icon-heart"></i>
+              </div>
+              <p class="hot-box-desc">
+                <strong>WH-1000XM4</strong> 무선 노이즈 캔슬링 헤드폰
+                <span>ILCE-7C / ILCE-7CL</span>
+              </p>
+              <span class="hot-box-price">
+                시작 <em>2,199,000 원</em> <sup>1</sup>
+              </span>
+            </a>
+          </div>
+          <div class="hot-box hot-box-4 hot-box-w hot-box-h">
+            <a href="#">
+              <div class="hot-box-img">
+                <img src="images/hot_good_4.webp" alt="제품">
+                <i class="icon-heart"></i>
+              </div>
+              <p class="hot-box-desc">
+                <strong>Alpha 7C</strong> 컴팩트 풀프레임 카메라
+                <span>ILCE-7C / ILCE-7CL</span>
+              </p>
+              <span class="hot-box-price">
+                시작 <em>2,199,000 원</em> <sup>1</sup>
+              </span>
+            </a>
+          </div>
+          <div class="hot-box hot-box-5 hot-box-w hot-box-h">
+            <a href="#">
+              <div class="hot-box-img">
+                <img src="images/hot_good_5.webp" alt="제품">
+                <i class="icon-heart"></i>
+              </div>
+              <p class="hot-box-desc">
+                <strong>XB13 EXTRA BASS&trade;</strong> 휴대용 무선 스피커
+                <span>ILCE-7C / ILCE-7CL</span>
+              </p>
+              <span class="hot-box-price">
+                시작 <em>2,199,000 원</em> <sup>1</sup>
+              </span>
+            </a>
+          </div>
+          <div class="hot-box hot-box-6 hot-box-w-2x hot-box-h-2x">
+            <a href="#">
+              <div class="hot-box-img">
+                <img src="images/hot_good_6.webp" alt="제품">
+                <i class="icon-heart"></i>
+              </div>
+              <p class="hot-box-desc">
+                <strong>Alpha 7C</strong> 컴팩트 풀프레임 카메라
+                <span>ILCE-7C / ILCE-7CL</span>
+              </p>
+              <span class="hot-box-price">
+                시작 <em>2,199,000 원</em> <sup>1</sup>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 최신뉴스 -->
+    <section class="news">
+      <div class="container">
+        <h2 class="news-title">LATEST NEWS</h2>
+        <div class="news-wrap">
+          <div class="news-slide">
+            <div class="swiper-container sw-news">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#" class="news-link">
+                    <img src="images/news-1.webp" alt="사진">
+                    <p>
+                      제품 프로모션/이벤트
+                      <span>소니스토어 바로가기</span>
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="news-link">
+                    <img src="images/news-2.webp" alt="사진">
+                    <p>
+                      제품 프로모션/이벤트
+                      <span>소니스토어 바로가기</span>
+                    </p>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#" class="news-link">
+                    <img src="images/news-3.webp" alt="사진">
+                    <p>
+                      제품 프로모션/이벤트
+                      <span>소니스토어 바로가기</span>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 부가기능 -->
+    <section class="addon">
+      <div class="addon-top">
+        <div class="container">
+          <button class="addon-bt">부가기능<i class="icon-up-micro"></i></button>
+        </div>
+      </div>
+      <div class="addon-main">
+        <div class="container">
+          <ul class="addon-list">
+            <li>판매가격은 사전공지 없이 변경될 수 있습니다.</li>
+            <li>제품의 색상 및 치수는 실제와 다를 수 있습니다.</li>
+            <li>표시된 제품 컬러 및 기능은 모델 및 국가에 따라 달라질 수 있습니다.</li>
+            <li>4K: 3,840 x 2,160픽셀</li>
+            <li>거주하는 국가 또는 지역에 따라 사용할 수 없는 기능이 있습니다. 제품에 설치되거나 제품을 통해 액세스할 수 있는 소프트웨어/서비스의 일부 또는 전부는 사전 통보없이 변경, 중단, 제거,
+              일시 중단 또는 해지될 수 있습니다.</li>
+            <li>기능이나 사양은 사전 고지 없이 변경될 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 하단 -->
+    <footer class="footer">
+
+      <div class="footer-top">
+        <div class="container">
+
+          <div class="sitemap clearfix">
+            <ul class="sitemap-list">
+              <li>매장찾기</li>
+              <li><a href="#">직영점안내</a></li>
+            </ul>
+            <ul class="sitemap-list">
+              <li>고객지원</li>
+              <li><a href="#">소니코리아 고객지원</a></li>
+              <li><a href="#">소니스토어 고객지원</a></li>
+              <li><a href="#">방송/업무용 솔루션 고객지원</a></li>
+              <li><a href="#">매장찾기</a></li>
+            </ul>
+            <ul class="sitemap-list">
+              <li>제품정보</li>
+              <li><a href="#">소비자 가전</a></li>
+              <li><a href="#">전문가용 제품 및 솔루션</a></li>
+              <li><a href="#">전자부품</a></li>
+            </ul>
+            <ul class="sitemap-list">
+              <li>뉴스 및 정보</li>
+              <li><a href="#">뉴스/보도자료</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+          <div class="footer-etc clearfix">
+            <a href="#" class="lang" title="대한민국">
+              대한민국
+            </a>
+            <div class="footer-menu-wrap clearfix">
+
+              <ul class="footer-menu clearfix">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">환경경영</a></li>
+                <li><a href="#">사회공헌</a></li>
+              </ul>
+
+              <ul class="footer-sns clearfix">
+                <li>
+                  <a href="#" class="yt" data-sns=".yt-box">
+                    <i class="icon-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="fb" data-sns=".fb-box">
+                    <i class="icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="ig" data-sns=".ig-box">
+                    <i class="icon-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+
+              <div class="sns-box">
+                <span class="sns-box-close">
+                  <i class="icon-cancel"></i>
+                </span>
+
+                <!-- 유튜브내용 -->
+                <p class="yt-box sns-cont">
+
+                  <span class="yt-title">YouTube 구독</span>
+
+                  <span class="yt-bt">
+                    <img src="images/ico_yt.png" alt="youtube">
+                    YouTube
+                    <em>+999</em>
+                  </span>
+
+                  <a href="#" class="yt-link">YouTube 방문하기</a>
+                </p>
+                <!--// 유튜브내용 -->
+                <!-- 페이스북내용 -->
+                <p class="fb-box sns-cont">
+                  <span class="fb-title">Facebook에서 좋아요 누르기</span>
+                  <span class="fb-bt">
+                    <img src="images/icon_fb.png" alt="Facebook">
+                    좋아요
+                    <em>20만개</em>
+                  </span>
+                  <a href="#" class="fb-link">Facebook 방문하기</a>
+                </p>
+                <!-- 인스타그램내용 -->
+                <p class="ig-box sns-cont">
+                  <span class="ig-title">인스타그램에서 팔로우하기</span>
+                  <a href="#" class="ig-link">인스타그램에서 보기</a>
+                </p>
+
+                <i class="sns-arrow icon-down-micro"></i>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <span class="copy">COPYRIGHT &copy; 2021. SONY KOREA CORPORATION. ALL RIGHTS RESERVED.</span>
+          <p class="etc-menu">
+            <a href="#">이용약관</a>
+            <a href="#"><strong>개인정보취급방침</strong></a>
+            <a href="#">이메일주소무단수집거부</a>
+            <a href="#">SL보안인증</a>
+          </p>
+          <address class="address">
+            사업장주소 :서울특별시 영등포구 국제금융로 10 원아이에프씨 24F <br>
+            사업자등록번호 :106-81-23810 <br>
+            통신판매번호 2012-서울영등포-1038 소니코리아 (주) <br>
+            대표이사 : Okura Kikuo | 개인정보관리책임자 : Okura Kikuo <br>
+            본 사이트의 컨텐츠는 저작권법의 보호를 받는 바, <br>
+            상업적 목적의 무단전재, 복사, 배포 등을 금합니다. <br>
+            TEL : 소니코리아 고객지원센터 1588-0911 E-MAIL : <a href="#">cshelp@sony.co.kr</a>
+          </address>
+        </div>
+      </div>
+
+    </footer>
+    <!--// 하단  -->
+
+  </div>
+</body>
+
+</html>
